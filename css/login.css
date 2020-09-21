@@ -1,0 +1,53 @@
+#first_half{
+    background-image: url(../img/login/login-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#logo{
+    width: 220px;
+    margin-left: 40%;
+}
+.auth-form{
+    width: 100%;
+    max-width: 424px;
+    margin-left: 23%; 
+}
+.login-form{
+    padding-bottom: 30px;
+    margin-top: 33px;
+    margin-bottom: 28px;
+}
+
+@media (max-width: 576px) {
+    #first_half{
+        display: none;
+    }
+    #logo{
+        margin-left: 25%;
+    }
+    .auth-form{
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #first_half{
+        display: none;
+    }
+    #logo{
+        margin-left: 35%;
+    }
+    .auth-form{
+        margin-left: 18%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    #logo{
+        margin-left: 25%;
+    }
+    .auth-form{
+        margin-left: 5%;
+    }
+}
